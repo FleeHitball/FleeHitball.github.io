@@ -1,0 +1,52 @@
+body{
+    background-color: #2A2B2F;
+    max-width: 900px;
+    margin: auto;
+}
+h1{
+    color: white;
+    font-family: "consolas", sans-serif;
+}
+a:link{
+    color: yellow;
+}
+a:visited{
+    color: yellow;
+}
+a:hover{
+    color: #c5d5d5;
+}
+hr{
+    margin-top: 10px;
+    color: white;
+}
+p{
+    color: white;
+    font-family: "consolas", sans-serif;
+}
+aside img{
+    padding: 0.1em;
+    border-radius: 20px;
+    vertical-align: top;
+    width: 45%;
+}
+aside{
+    position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+    width: fit-content;
+    max-width: 350px;
+    text-align: center;
+}
+h1::selection{
+    color: white;
+    background-color: black;
+}
+p::selection{
+    color: white;
+    background-color: black;
+}
+pre::selection{
+    color: white;
+    background-color: black;
+}
